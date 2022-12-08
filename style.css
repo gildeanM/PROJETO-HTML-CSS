@@ -71,7 +71,12 @@ nav > div > a:hover{
     background-color: #58B19F;
 }
 
-.sabor, .frutas{
+.secaoMudas{
+    padding: 30px;
+    background-color: #dfe6e9;
+}
+
+.sabor, .frutas, .mudas{
     min-height: 300px;
     min-width: 250px;
     padding: 15px;
@@ -106,7 +111,7 @@ center > div{
     background-image: url(assets/img/manga.jpg);
 }
 
-.saborRows, .rowFrutas{
+.saborRows, .rowFrutas, .mudasRow{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -118,7 +123,7 @@ center > div{
 .s02, .s03, .s04, .s05, .s06, .s07{
     flex: 1;
 }
-.s01, .s02, .s03, .s04, .s05, .s06, .s07, .s08, .f01, .f02, .f03{
+.s01, .s02, .s03, .s04, .s05, .s06, .s07, .s08, .f01, .f02, .f03,.m01, .m02, .m03{
     border-radius: 10px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -144,6 +149,42 @@ center > div{
     background-image: url(assets/img/frutaMamao.png);
 }
 
-.f01, .f02, .f03{
+.f01, .f02, .f03, .m01, .m02, .m03{
+    flex: 1;
+}
+
+.m01{
+    background-image: url(assets/img/mudaGoiaba.jpg);
+}
+.m02{
+    background-image: url(assets/img/mudaGraviola.jpg);
+}
+.m03{
+    background-image: url(assets/img/mudaMaracuja.jpg);
+}
+
+.descricao{
+    text-align: center;
+    font-size: 20px;
+}
+.descricao > h2{
+    color: green;
+    margin: 10px;
+}
+.descricao > h4{
+    color: orange;
+    margin: 10px;
+}
+.descricao > div{
+
+    margin: 10px;
+}
+
+.missaoVisaoValores{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.missao, .visao, .valores{
     flex: 1;
 }
