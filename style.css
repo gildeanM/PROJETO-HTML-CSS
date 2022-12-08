@@ -60,3 +60,90 @@ nav > div > a:hover{
     top: 50%;
     left: 26%;
 }
+
+.polpas{
+    background-color: #f8efba;
+    padding: 30px;
+}
+
+.secaoFrutas{
+    padding: 30px;
+    background-color: #58B19F;
+}
+
+.sabor, .frutas{
+    min-height: 300px;
+    min-width: 250px;
+    padding: 15px;
+}
+
+center > h1{
+    color: green;
+    font-size: 35px;
+}
+center > div{
+    color: yellow;
+}
+
+.s01{
+    background-image: url(assets/img/graviola.jpg);
+}
+.s02{
+    background-image: url(assets/img/caju.PNG);
+}.s03{
+    background-image: url(assets/img/Maracuja.jpg);
+}.s04{
+    background-image: url(assets/img/acerola.jpg);
+}
+.s05{
+    background-image: url(assets/img/Uva.png);
+}
+.s06{
+    background-image: url(assets/img/tamarino.jpg);
+}.s07{
+    background-image: url(assets/img/goiaba.jpg);
+}.s08{
+    background-image: url(assets/img/manga.jpg);
+}
+
+.saborRows, .rowFrutas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.s01, .s08{
+    flex: 2;
+}
+.s02, .s03, .s04, .s05, .s06, .s07{
+    flex: 1;
+}
+.s01, .s02, .s03, .s04, .s05, .s06, .s07, .s08, .f01, .f02, .f03{
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bolder ;
+    margin: 10px;
+    color: #009432;
+}
+
+
+
+
+.f01{
+    background-image: url(assets/img/frutaBanana.jpg);
+}
+.f02{
+    background-image: url(assets/img/frutaGoiaba.jpg);
+}
+.f03{
+    background-image: url(assets/img/frutaMamao.png);
+}
+
+.f01, .f02, .f03{
+    flex: 1;
+}
